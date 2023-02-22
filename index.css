@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding-top: 4%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.left-card{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(#6440fd,#4233f0);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+.left-card h2{
+    color: rgb(243, 233, 233);
+}
+.right-card{
+    width: 300px;
+    height: 400px;
+    background: white;
+    border-radius: 0 20px 20px 0;
+    font-weight: bold;
+}
+.right-card h2{
+    padding-left: 30px;
+    font: normal;
+    font-size: large;
+}
+.right-card .category1{
+    display: flex;
+    min-height: max-content;
+    margin: 0 20px 0px 20px;
+    background: rgb(235, 201, 201);
+    color: red;
+    padding: 0 5px 0 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: .20s ease-in-out;
+}
+.right-card .category2{
+    display: flex;
+    min-height: max-content;
+    margin: 0 20px 0px 20px;
+    background: rgb(240, 228, 205);
+    color: orange;
+    padding: 0 5px 0 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: .20s ease-in-out;
+}
+.right-card .category3{
+    display: flex;
+    min-height: max-content;
+    margin: 0 20px 0px 20px;
+    background: rgb(208, 240, 208);
+    color: green;
+    padding: 0 5px 0 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: .20s ease-in-out;
+}
+.right-card .category4{
+    display: flex;
+    min-height: max-content;
+    margin: 0 20px 0px 20px;
+    background: rgb(235, 209, 235);
+    color: purple;
+    padding: 0 5px 0 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: .20s ease-in-out;
+}
+.right-card .main-category{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-card span {
+    color: gray;
+}
+.right-card .category1 .score{
+    font-weight: 500;
+    font-size:large;
+    color: black;
+}
+.right-card .category2 .score{
+    font-weight: 500;
+    font-size:large;
+    color: black;
+}
+.right-card .category3 .score{
+    font-weight: 500;
+    font-size:large;
+    color: black;
+}
+.right-card .category4 .score{
+    font-weight: 500;
+    font-size:large;
+    color: black;
+}
+.button{
+    padding: 20px;
+}
+.btn{
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    font-size:medium;
+    border: none;
+    background-color: rgb(22, 20, 43);
+    color: white;
+    transition: .2s ease-in-out;
+}
+.btn:hover{
+    background: linear-gradient(#6440fd,#4233f0);
+}
+.container .left-card .rate{
+    width: 140px;
+    background: linear-gradient(#4b24ce,#4633ed);
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 20px 20px 50px #4633ed;
+    margin: auto;
+    transition: all .20s ease-out;
+}
+.container .left-card .rate .outof{
+    color: rgb(187, 179, 179);
+    font-weight: 600;
+}
+.container .left-card .rate span{
+    font-size: 60px;
+    font-weight: bolder ;
+}
+.container .left-card .data{
+    margin: auto;
+    width: 12rem;
+}
+.container .left-card .data h3{
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
