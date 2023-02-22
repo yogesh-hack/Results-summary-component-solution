@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/frontend-mentor-results-summary-component-solution-9KW2oL6IsP)
-- Live Site URL: [Add live site URL here](https://yogesh-hack.github.io/Results-summary-component-solution/)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/frontend-mentor-results-summary-component-solution-9KW2oL6IsP)
+- Live Site URL: [live site URL here](https://yogesh-hack.github.io/Results-summary-component-solution/)
 
 ## My process
 
